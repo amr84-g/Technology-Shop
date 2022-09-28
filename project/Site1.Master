@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="project.Site1" %>
+
+<html>
+	<head>
+		<title>login</title>
+		<style>
+			body{
+				background-color:gray;
+			}
+			.div1
+			{
+			    background-color:tomato;
+			}
+			h2
+			{
+			    font-style:inherit;
+			    font-family:@MS UI Gothic;
+			    font-size:50;
+			    width:100%;
+				text-align:center;
+			}
+			.div2
+			{
+			    background-color:gray;
+			}
+			.div3
+			{
+			    background-color:tomato;
+			    font-style:inherit;
+			    font-family:@MS UI Gothic;
+			    font-size:50;
+			    width:100%;
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+		<form id="form1" runat="server">
+		<div class='div1'>
+            <h2>Shop</h2>
+        </div>
+        <div class='div2'>
+            <fieldset>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </fieldset>
+            
+            
+        </div>
+        
+	    </form>
+	</body>
+
+
+</html>
